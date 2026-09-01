@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>GameEye | Game Security</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background: #080b10;
+            color: #ffffff;
+        }
+
+        header {
+            padding: 22px;
+            text-align: center;
+            border-bottom: 1px solid #202631;
+        }
+
+        .logo {
+            font-size: 30px;
+            font-weight: 800;
+        }
+
+        .logo span {
+            color: #4da3ff;
+        }
+
+        .hero {
+            max-width: 900px;
+            margin: auto;
+            padding: 85px 20px 70px;
+            text-align: center;
+        }
+
+        .shield {
+            font-size: 55px;
+            margin-bottom: 20px;
+        }
+
+        .hero h1 {
+            margin: 0;
+            font-size: clamp(44px, 10vw, 72px);
+        }
+
+        .hero h1 span {
+            color: #4da3ff;
+        }
+
+        .hero h2 {
+            margin: 20px 0 0;
+            font-size: 25px;
+            color: #dce3eb;
+        }
+
+        .hero p {
+            max-width: 650px;
+            margin: 20px auto 0;
+            color: #9da6b0;
+            font-size: 18px;
+            line-height: 1.7;
+        }
+
+        .products {
+            max-width: 1050px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 32px;
+            margin-bottom: 35px;
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: #11161d;
+            border: 1px solid #252c35;
+            border-radius: 18px;
+            padding: 28px;
+            transition: 0.2s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            border-color: #4da3ff;
+        }
+
+        .icon {
+            font-size: 38px;
+            margin-bottom: 18px;
+        }
+
+        .card h3 {
+            margin: 0 0 12px;
+            font-size: 23px;
+        }
+
+        .card p {
+            color: #9da6b0;
+            line-height: 1.6;
+            margin-bottom: 22px;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 11px 18px;
+            border-radius: 9px;
+            background: #4da3ff;
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: bold;
+            border: none;
+        }
+
+        .coming-soon {
+            display: inline-block;
+            padding: 10px 16px;
+            border-radius: 9px;
+            background: #252c35;
+            color: #cbd2da;
+            font-weight: bold;
+        }
+
+        footer {
+            margin-top: 80px;
+            padding: 30px 20px;
+            text-align: center;
+            border-top: 1px solid #202631;
+            color: #68717c;
+        }
+
+        @media (max-width: 600px) {
+            .hero {
+                padding-top: 60px;
+            }
+
+            .hero p {
+                font-size: 16px;
+            }
+
+            .card {
+                padding: 24px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">
+        Game<span>Eye</span>
+    </div>
+</header>
+
+<main>
+
+    <section class="hero">
+
+        <div class="shield">🛡️</div>
+
+        <h1>
+            Game<span>Eye</span>
+        </h1>
+
+        <h2>
+            Game Security Tools
+        </h2>
+
+        <p>
+            Security tools built to help protect gamers,
+            game files, mods and online gaming environments.
+        </p>
+
+    </section>
+
+
+    <section class="products">
+
+        <h2 class="section-title">
+            Our Products
+        </h2>
+
+        <div class="cards">
+
+            <!-- GTA Guard -->
+
+            <div class="card">
+
+                <div class="icon">🛡️</div>
+
+                <h3>GTA Guard</h3>
+
+                <p>
+                    Security software designed to help
+                    protect GTA players and their gaming environment.
+                </p>
+
+                <div class="coming-soon">
+                    Coming Soon
+                </div>
+
+            </div>
+
+
+            <!-- Mod Guard -->
+
+            <div class="card">
+
+                <div class="icon">🔐</div>
+
+                <h3>Mod Guard</h3>
+
+                <p>
+                    Security tool designed to analyze
+                    game mods and identify suspicious content.
+                </p>
+
+                <div class="coming-soon">
+                    Coming Soon
+                </div>
+
+            </div>
+
+
+            <!-- Game Scanner -->
+
+            <div class="card">
+
+                <div class="icon">🎮</div>
+
+                <h3>Game Scanner</h3>
+
+                <p>
+                    Security software designed for
+                    online gaming environments.
+                </p>
+
+                <div class="coming-soon">
+                    Coming Soon
+                </div>
+
+            </div>
+
+
+            <!-- Phishing Guard -->
+
+            <div class="card">
+
+                <div class="icon">🔗</div>
+
+                <h3>Phishing Guard</h3>
+
+                <p>
+                    A tool designed to help detect
+                    suspicious links and phishing attempts.
+                </p>
+
+                <div class="coming-soon">
+                    Coming Soon
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+</main>
+
+
+<footer>
+    © 2026 GameEye. Game Security Tools.
+</footer>
+
+</body>
+</html>
